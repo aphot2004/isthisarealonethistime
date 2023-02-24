@@ -33,9 +33,24 @@
             iframe.src = url;
             win.document.body.appendChild(iframe);
         }
+		 
+            function moviesunstable() {
+            var url = value="https://lmsmoviesreplit.quadtriplecalculator.epizy.com";
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+	    iframe.allow = "fullscreen";
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
         </script>
         <button onclick='create()'>Games! (Blocks Screen)</button>
         <button onclick='movies()'>Movies!</button>
+	    <button onclick='moviesunstable()'>Movies Replit</button>
 	 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click one of the buttons to begin. Please Listen to the instructions on Movies.</strong>
 	 <strong></strong>   
     </body>
